@@ -15,10 +15,10 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "nginx_stream_pusher"
-  gem.homepage = "http://github.com/jeanmartin/nginx_stream_pusher"
+  gem.homepage = "http://github.com/GeneralScripting/nginx_stream_pusher"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{TODO: A ruby client for nginx-push-stream-module}
+  gem.description = %Q{TODO: A ruby client for publishing messages to your http pub/sub service provided by the nginx-push-stream-module}
   gem.email = "jan@general-scripting.com"
   gem.authors = ["Jan Schwenzien"]
   # dependencies defined in Gemfile

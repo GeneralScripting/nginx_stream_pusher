@@ -1,6 +1,8 @@
 = nginx_stream_pusher
 
-Description goes here.
+This is a ruby client for publishing messages to your http pub/sub service provided by the {nginx-push-stream-module}[https://github.com/wandenberg/nginx-push-stream-module].
+
+
 
 == Contributing to nginx_stream_pusher
  
@@ -14,6 +16,6 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2012 Jan Schwenzien. See LICENSE.txt for
+Copyright (c) 2012 General Scripting UG (haftungsbeschränkt). See LICENSE.txt for
 further details.
 
