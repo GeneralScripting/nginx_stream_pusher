@@ -55,7 +55,7 @@ module NginxStreamPusher
 
   def post_url(url, data)
     http = Net::HTTP.new(url.host, url.port)
-    http.use_ssl = uri.scheme == 'https'
+    http.use_ssl = url.scheme == 'https'
     http.read_timeout = timeout
     if File.directory? RootCA
       http.ca_path = RootCA
@@ -65,7 +65,7 @@ module NginxStreamPusher
       http.verify_mode = OpenSSL::SSL::VERIFY_NONE
     end
     
-    req = Net::HTTP::Post.new(uri.request_uri, 'User-agent' => 'NginxStreamPusher Ruby Client')
+    req = Net::HTTP::Post.new(url.request_uri, 'User-agent' => 'NginxStreamPusher Ruby Client')
     req.basic_auth user, pass  if user || pass
     req.body = data
     
