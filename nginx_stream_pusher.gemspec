@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/nginx_stream_pusher.rb",
+    "nginx_stream_pusher.gemspec",
     "test/helper.rb",
     "test/test_nginx_stream_pusher.rb"
   ]
