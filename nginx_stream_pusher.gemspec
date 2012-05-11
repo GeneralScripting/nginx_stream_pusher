@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "nginx_stream_pusher"
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jan Schwenzien"]
-  s.date = "2012-05-10"
+  s.date = "2012-05-11"
   s.description = "A ruby client for publishing messages to your http pub/sub service provided by the nginx-push-stream-module"
   s.email = "jan@general-scripting.com"
   s.extra_rdoc_files = [
