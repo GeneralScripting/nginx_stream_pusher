@@ -20,7 +20,7 @@ module NginxStreamPusher
   end
 
   @@user = nil
-  def base_url=(username)
+  def user=(username)
     @@user = username
   end
   def user
